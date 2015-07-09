@@ -1,0 +1,40 @@
+{
+  "name": "uc-affect-study-importer",
+  "version": "0.0.1",
+  "description": "import from firebase, write to google spreadsheets",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "mocha",
+    "testwatch": "mocha --watch",
+    "build": "babel src/index.js > build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrishiestand/uc-affect-study-importer"
+  },
+  "keywords": [
+    "node",
+    "oakleon"
+  ],
+  "author": "chrishiestand@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrishiestand/uc-affect-study-importer/issues"
+  },
+  "homepage": "https://github.com/chrishiestand/uc-affect-study-importer#readme",
+  "dependencies": {
+    "babel-runtime": "^6.6.1"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.6.5",
+    "babel-eslint": "^5.0.0",
+    "babel-plugin-transform-runtime": "^6.6.0",
+    "babel-preset-es2015-node4": "^2.0.3",
+    "babel-preset-stage-3": "^6.5.0",
+    "eslint": "^2.3.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "mocha": "^2.4.5"
+  }
+}
